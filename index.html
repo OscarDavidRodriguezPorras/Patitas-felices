@@ -14,13 +14,60 @@
         <div>
             <nav id="navegacion">
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a href="#banner1">Home</a></li>
+                    <li><a href="">Galeria</a></li>
                     <li><a href="">Donar</a></li>
                     <li><a href="">Contacto</a></li>
-                    <li id="Adoptar"><a href="">Adoptar</a></li>
+                    <li><a href="">Testimonios</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <main>
+        <section class="banner">
+        <div id="banner1"></div>
+        
+        <div class="contenido-banner">
+            <h1 class="titulo-banner">Cambiando vidas,<br>una patita a la vez</h1>
+            <div class="btns-banner">
+            <a href="#adopta" class="btn btn--orange">Adopta</a>
+            <a href="#conocenos" class="btn btn--green">Conócenos</a>
+            </div>
+        </div>
+
+        <div class="carrucel">
+            <input type="radio" name="slide" id="s1" checked hidden>
+            <input type="radio" name="slide" id="s2" hidden>
+            <input type="radio" name="slide" id="s3" hidden>
+
+            <div class="slider-track-wrapper">
+            <div class="slider-track">
+
+            <div class="img-carrucel">
+            <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=300&q=75" alt="Rescátanos con amor">
+            <div class="titulo-img-carrucel">Rescátanos con amor</div>
+            </div>
+
+            <div class="img-carrucel">
+            <img src="https://images.unsplash.com/photo-1601758003122-53c40e686a19?w=300&q=75" alt="Un hogar para siempre">
+            <div class="titulo-img-carrucel">Un hogar para siempre</div>
+            </div>
+
+            <div class="img-carrucel">
+            <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=300&q=75" alt="Únete al voluntariado">
+            <div class="titulo-img-carrucel">Únete al voluntariado</div>
+            </div>
+
+            <label class="slider-nav slider-nav--next" for="s2"></label>
+
+            <div class="slider-dots">
+            <label for="s1"></label>
+            <label for="s2"></label>
+            <label for="s3"></label>
+            </div>
+        </div>
+    </section>
+        </main>
 </body>
 </html>
