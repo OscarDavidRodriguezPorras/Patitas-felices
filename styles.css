@@ -329,3 +329,79 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 12px 25px rgba(0,0,0,0.1);
 }
+
+
+/*Mision y vision*/
+#mision-vision {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 40px 5%;
+}
+
+.tarjetas{
+    border-radius: 12px;
+    padding: 24px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    min-height: 160px;
+}
+
+#mision {
+    background: #2d6a4f;
+}
+
+#vision {
+    background: #b5451b;
+}
+
+.mv-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.mv-header img {
+    width: 50px;
+    height: 50px;
+}
+
+.mv-header h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+}
+
+.tarjetas p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+    color: rgba(255,255,255,0.92);
+    max-width: 55%;
+}
+
+#mision {
+    background:linear-gradient(to right, #2d6a4f 45%, transparent 75%),
+    url('https://i.pinimg.com/236x/68/07/aa/6807aadf04c8e373aeee366f5b842cb7.jpg') right center / 50% no-repeat;
+    background-color: #2d6a4f;
+}
+
+#vision {
+    background:linear-gradient(to right, #b5451b 45%, transparent 75%),
+    url('https://i.redd.it/f5k8xth2iycd1.jpeg') right center / 50% no-repeat;
+    background-color: #b5451b;
+}
+
+.tarjetas a{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+
+.tarjetas a:hover{
+    color: rgb(140, 121, 232);
+    font-size: 22px;
+}
