@@ -612,3 +612,54 @@ body {
 #contactos button:hover {
     filter: brightness(1.1);
 }
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 5%;
+    background: #2c2c2c;
+    color: #fff;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+#footer-nombre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+#footer-contacto {
+    text-align: center;
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.85);
+}
+
+#footer-contacto p {
+    margin: 4px 0;
+}
+
+#footer-dev {
+    text-align: right;
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.75);
+}
+
+#footer-dev p {
+    margin: 0 0 4px;
+}
+
+#footer-dev a {
+    color: #a8d5b5;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#footer-dev a:hover {
+    color: #fff;
+}
