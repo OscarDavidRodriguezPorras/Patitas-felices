@@ -546,3 +546,69 @@ body {
 .btn-perfil--adoptado {
     background: #b5451b;
 }
+
+/*contacto*/
+#contacto{
+    padding: 40px 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#contactos{
+    background: #f5f0e8;
+    border-radius: 14px;
+    padding: 30px 28px;
+    width: 100%;
+    max-width: 420px;
+}
+
+#contactos h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #222;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 14px;
+}
+
+#contactos input, #contactos select, #contactos textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fdfaf4;
+    font-size: 0.9rem;
+    color: #333;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#contactos input:focus,
+#contactos select:focus,
+#contactos textarea:focus {
+    border-color: #2d6a4f;
+}
+
+#contactos textarea {
+    height: 110px;
+    resize: none;
+}
+
+#contactos button {
+    display: block;
+    margin: 16px auto 0;
+    padding: 12px 48px;
+    background: #2d6a4f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+#contactos button:hover {
+    filter: brightness(1.1);
+}
