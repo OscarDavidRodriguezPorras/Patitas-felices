@@ -663,3 +663,361 @@ footer {
 #footer-dev a:hover {
     color: #fff;
 }
+
+@media (min-width: 769px) and (max-width: 1100px) {
+ 
+  header {
+    padding: 10px 20px;
+  }
+ 
+  nav a {
+    padding: 8px 20px;
+    font-size: 13px;
+  }
+ 
+  nav li {
+    padding: 6px 8px;
+    margin: 8px 0;
+  }
+ 
+  
+  .banner {
+    width: 100%;
+    height: 420px;
+  }
+ 
+  .contenido-banner {
+    padding: 0 4% 0;
+    max-width: 480px;
+  }
+ 
+
+  #opciones {
+    gap: 2%;
+    padding: 20px 3%;
+    margin: 30px 0 20px;
+  }
+ 
+  .opciones {
+    width: 21%;
+  }
+ 
+  
+  .testimonio {
+    margin: 30px 12px;
+    font-size: 0.95rem;
+  }
+ 
+  
+  #mision-vision {
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 3%;
+  }
+ 
+  .tarjetas p {
+    max-width: 70%;
+  }
+ 
+  
+  #galeria {
+    padding: 30px 3%;
+  }
+ 
+  
+  #adoptables {
+    padding: 30px 3%;
+  }
+ 
+  #grid-adoptables {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+ 
+  /* Contacto */
+  #contactos {
+    max-width: 520px;
+  }
+ 
+  /* Footer */
+  footer {
+    padding: 20px 3%;
+  }
+}
+ 
+/*TABLET (max 768px)*/
+@media (max-width: 768px) {
+ 
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+  }
+ 
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 0;
+  }
+ 
+  nav li {
+    padding: 4px 6px;
+    margin: 0;
+  }
+ 
+  nav a {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+ 
+  .banner {
+    height: auto;
+    min-height: 440px;
+  }
+ 
+  .contenido-banner {
+    height: auto;
+    padding: 40px 5% 130px;
+    max-width: 100%;
+  }
+ 
+  .titulo-banner {
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
+  }
+ 
+  .btns-banner {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+ 
+  .carrucel {
+    height: 90px;
+  }
+ 
+  .img-carrucel {
+    height: 62px;
+  }
+ 
+  #opciones {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin: 30px auto;
+    padding: 20px 16px;
+  }
+ 
+  .opciones {
+    width: 40%;
+    min-width: 130px;
+  }
+
+  #Testimonios {
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .testimonio {
+    margin: 20px 16px;
+  }
+ 
+  #mision-vision {
+    grid-template-columns: 1fr;
+    padding: 24px 5%;
+    gap: 14px;
+  }
+ 
+  .tarjetas p {
+    max-width: 100%;
+  }
+
+  #grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  .foto.grande {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+ 
+  .foto.grande img {
+    height: 200px;
+  }
+
+  #grid-adoptables {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  #contactos {
+    max-width: 100%;
+    padding: 24px 16px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 24px 5%;
+  }
+ 
+  #footer-dev {
+    text-align: center;
+  }
+}
+ 
+/*celular (max 480px)*/
+@media (max-width: 480px) {
+ 
+  header {
+    padding: 8px 12px;
+  }
+ 
+  nav ul {
+    gap: 6px;
+  }
+ 
+  nav a {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+ 
+  .banner {
+    min-height: 380px;
+  }
+ 
+  .contenido-banner {
+    padding: 30px 4% 110px;
+  }
+ 
+  .titulo-banner {
+    font-size: clamp(1.4rem, 7vw, 1.9rem);
+    margin-bottom: 18px;
+  }
+ 
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+ 
+  .carrucel {
+    height: 80px;
+    padding: 0 8px;
+  }
+ 
+  .img-carrucel {
+    height: 56px;
+  }
+ 
+  .titulo-img-carrucel {
+    font-size: 0.6rem;
+  }
+ 
+  #labor h3 {
+    font-size: 0.95rem;
+    padding: 0 16px;
+    line-height: 1.6;
+  }
+ 
+  #opciones {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 16px;
+  }
+ 
+  .opciones {
+    width: 80%;
+    max-width: 260px;
+  }
+ 
+  .testimonio {
+    font-size: 0.95rem;
+    margin: 14px 10px;
+    padding: 16px;
+  }
+ 
+  #mision-vision {
+    padding: 20px 4%;
+    gap: 12px;
+  }
+ 
+  .tarjetas {
+    padding: 18px 16px;
+    min-height: 130px;
+  }
+
+  #grid-galeria {
+    grid-template-columns: 1fr;
+  }
+ 
+  .foto.grande {
+    grid-column: span 1;
+  }
+ 
+  .foto.grande img,
+  .foto img {
+    height: 200px;
+  }
+
+  #adoptables {
+    padding: 28px 4%;
+  }
+ 
+  #titulo-adoptables {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+ 
+  #grid-adoptables {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+ 
+  .animal-card img {
+    height: 180px;
+  }
+
+  #contacto {
+    padding: 28px 4%;
+  }
+ 
+  #contactos {
+    padding: 20px 14px;
+    border-radius: 10px;
+  }
+ 
+  #contactos h2 {
+    font-size: 1.2rem;
+  }
+ 
+  #contactos input,
+  #contactos select,
+  #contactos textarea {
+    font-size: 0.85rem;
+    padding: 10px 12px;
+  }
+ 
+  #contactos button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  footer {
+    padding: 20px 4%;
+    gap: 14px;
+  }
+ 
+  #footer-nombre,
+  #footer-contacto,
+  #footer-dev {
+    text-align: center;
+  }
+ 
+  #footer-contacto p,
+  #footer-dev p,
+  #footer-dev a {
+    font-size: 0.8rem;
+  }
+}
