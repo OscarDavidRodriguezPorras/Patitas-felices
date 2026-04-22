@@ -1,0 +1,343 @@
+.banner-voluntariado {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+#banner-v {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(to right, rgba(0,0,0,0.55) 38%, rgba(0,0,0,0.05) 70%),
+        url('https://purina.com.pe/sites/default/files/2022-10/purina-brand-que-saber-de-los-gatitos-bebes.jpg') center / cover no-repeat;
+}
+
+.contenido-voluntariado {
+    font-family: serif;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+    margin: 0 0 28px;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+    animation: fadeUp 0.7s ease both;
+}
+
+.contenido-voluntariado #subtitulo{
+    font-family: serif;
+    font-size: clamp(0.5rem, 2vw, 2rem);
+    font-weight: 700;
+    color: #ecbdbd;
+    line-height: 1.2;
+    margin: 0 0 28px;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+    animation: fadeUp 0.7s ease both;
+}
+
+
+/*informacion*/
+#informacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 40px 5%;
+}
+
+.tarjetas{
+    border-radius: 12px;
+    padding: 24px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    min-height: 160px;
+}
+
+#Beneficios {
+    background: #2d6a4f;
+}
+
+#Responsabilidades {
+    background: #b5451b;
+}
+
+.mv-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.mv-header img {
+    width: 50px;
+    height: 50px;
+}
+
+.mv-header h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+}
+
+.tarjetas p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+    color: rgba(255,255,255,0.92);
+    max-width: 55%;
+}
+
+#mision {
+    background:linear-gradient(to right, #2d6a4f 45%, transparent 75%),
+    url('https://i.pinimg.com/236x/68/07/aa/6807aadf04c8e373aeee366f5b842cb7.jpg') right center / 50% no-repeat;
+    background-color: #2d6a4f;
+}
+
+#vision {
+    background:linear-gradient(to right, #b5451b 45%, transparent 75%),
+    url('https://i.redd.it/f5k8xth2iycd1.jpeg') right center / 50% no-repeat;
+    background-color: #b5451b;
+}
+
+.tarjetas a{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+
+.tarjetas a:hover{
+    color: rgb(140, 121, 232);
+    font-size: 22px;
+}
+
+/*contacto*/
+#contacto{
+    padding: 40px 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#contactos{
+    background: #f5f0e8;
+    border-radius: 14px;
+    padding: 30px 28px;
+    width: 100%;
+    max-width: 420px;
+}
+
+#contactos h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #222;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 14px;
+}
+
+#contactos input, #contactos select, #contactos textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fdfaf4;
+    font-size: 0.9rem;
+    color: #333;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#contactos input:focus,
+#contactos select:focus,
+#contactos textarea:focus {
+    border-color: #2d6a4f;
+}
+
+#contactos textarea {
+    height: 110px;
+    resize: none;
+}
+
+#contactos button {
+    display: block;
+    margin: 16px auto 0;
+    padding: 12px 48px;
+    background: #2d6a4f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+#contactos button:hover {
+    filter: brightness(1.1);
+}
+
+/*nav*/
+/*Navegacion*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: rgb(239, 115, 115);
+    background: #F5F5DC;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+#imagen-logo {
+    margin: 5px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 80px;
+}
+
+nav a {
+   background: rgba(255, 255, 255, 0.5);
+    border: 0.5px solid rgba(4, 3, 3, 0.18);
+    border-radius: 8px;
+    padding: 8px 40px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-family: monospace;
+    
+}
+
+nav li {
+    padding: 8px 20px;
+    margin: 20px 1000px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.08);
+    border-color: rgba(255,255,255,0.38);
+    color: #00ab3c;
+}
+
+#imagen-logo:hover{
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+}
+@media (max-width: 480px) {
+ 
+  header {
+    padding: 8px 12px;
+  }
+ 
+  nav ul {
+    gap: 6px;
+  }
+ 
+  nav a {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  nav li{
+    margin: 20px 80px;
+  }
+ 
+  .banner-voluntariado {
+    min-height: 380px;
+  }
+
+  .contenido-banner-v {
+    padding: 30px 4% 110px;
+  }
+
+  h2{
+    font-size: 1000px;
+  }
+ 
+  .contenido-banner {
+    padding: 30px 4% 110px;
+  }
+
+    #mision-vision {
+    padding: 20px 4%;
+    gap: 12px;
+  }
+ 
+  .tarjetas {
+    padding: 18px 16px;
+    min-height: 130px;
+  }
+
+    #contacto {
+    padding: 28px 4%;
+  }
+ 
+  #contactos {
+    padding: 20px 14px;
+    border-radius: 10px;
+  }
+ 
+  #contactos h2 {
+    font-size: 1.2rem;
+  }
+ 
+  #contactos input,
+  #contactos select,
+  #contactos textarea {
+    font-size: 0.85rem;
+    padding: 10px 12px;
+  }
+ 
+  #contactos button {
+    width: 100%;
+    padding: 12px;
+  }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1280px) {
+    header {
+    padding: 10px 20px;
+  }
+ 
+  nav a {
+    padding: 8px 20px;
+    font-size: 13px;
+  }
+ 
+  nav li {
+    padding: 6px 8px;
+    margin: 10px 400px;
+  }
+   .banner-voluntariado {
+    width: 100%;
+    height: 420px;
+  }
+ 
+  .contenido-voluntariado {
+    padding: 0 4% 0;
+    max-width: 480px;
+  }
+
+   #informacion {
+    grid-template-columns: 400px 400px 5px;
+    padding: 30px 10px;
+  }
+ 
+  .tarjetas p {
+    max-width: 70%;
+  }
+  #contactos {
+    max-width: 320px;
+  
+  }
+
+  
+  
+}
